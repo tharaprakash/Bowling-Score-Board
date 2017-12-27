@@ -1,0 +1,168 @@
+
+
+Started GET "/" for 127.0.0.1 at 2017-12-21 14:54:16 +0530
+  Processing by GameController#index as HTML
+Rendered game/_form.html.erb (1.0ms)
+Rendered game/index.html.erb within layouts/application (9.9ms)
+Compiled application.css  (0ms)  (pid 96500)
+Compiled application.js  (0ms)  (pid 96500)
+Completed 200 OK in 43ms (Views: 43.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/game/frame" for 127.0.0.1 at 2017-12-21 14:54:26 +0530
+  Processing by GameController#frame as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Rl5cFLFVCK9xTP8xkg9aM0X7+c99hGdAd8aE5kbhLl0=", "ball1"=>"1", "ball2"=>"3", "commit"=>"Next Frame"}
+Rendered game/_results.html.erb (0.3ms)
+Rendered game/_form.html.erb (0.6ms)
+Rendered game/frame.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 6ms (Views: 5.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/game/frame" for 127.0.0.1 at 2017-12-21 14:54:36 +0530
+  Processing by GameController#frame as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Rl5cFLFVCK9xTP8xkg9aM0X7+c99hGdAd8aE5kbhLl0=", "frame_number"=>"1", "ball1"=>"3", "ball2"=>"4", "commit"=>"Next Frame"}
+Rendered game/_results.html.erb (0.0ms)
+Rendered game/_form.html.erb (0.9ms)
+Rendered game/frame.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 6ms (Views: 5.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/game/new" for 127.0.0.1 at 2017-12-21 14:54:43 +0530
+  Processing by GameController#new as HTML
+Redirected to http://localhost:1234/game
+Completed 302 Found in 1ms
+
+
+Started GET "/game" for 127.0.0.1 at 2017-12-21 14:54:43 +0530
+  Processing by GameController#index as HTML
+Rendered game/_form.html.erb (0.5ms)
+Rendered game/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 3ms (Views: 3.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/game/frame" for 127.0.0.1 at 2017-12-21 14:54:48 +0530
+  Processing by GameController#frame as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Rl5cFLFVCK9xTP8xkg9aM0X7+c99hGdAd8aE5kbhLl0=", "ball1"=>"5", "ball2"=>"3", "commit"=>"Next Frame"}
+Rendered game/_results.html.erb (0.0ms)
+Rendered game/_form.html.erb (7.0ms)
+Rendered game/frame.html.erb within layouts/application (7.7ms)
+Completed 200 OK in 10ms (Views: 10.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/game/frame" for 127.0.0.1 at 2017-12-21 14:55:00 +0530
+  Processing by GameController#frame as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Rl5cFLFVCK9xTP8xkg9aM0X7+c99hGdAd8aE5kbhLl0=", "frame_number"=>"1", "ball1"=>"10", "ball2"=>"0", "commit"=>"Next Frame"}
+Rendered game/_results.html.erb (0.0ms)
+Rendered game/_form.html.erb (0.5ms)
+Rendered game/frame.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 9ms (Views: 7.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/game/frame" for 127.0.0.1 at 2017-12-21 16:18:12 +0530
+  Processing by GameController#frame as HTML
+Rendered game/_results.html.erb (0.3ms)
+Rendered game/_form.html.erb (1.3ms)
+Rendered game/frame.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 32ms (Views: 31.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/game/frame" for 127.0.0.1 at 2017-12-21 16:18:31 +0530
+  Processing by GameController#frame as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Rl5cFLFVCK9xTP8xkg9aM0X7+c99hGdAd8aE5kbhLl0=", "frame_number"=>"2", "ball1"=>"0", "ball2"=>"0", "commit"=>"Next Frame"}
+Rendered game/_results.html.erb (0.1ms)
+Rendered game/_form.html.erb (0.7ms)
+Rendered game/frame.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 5ms (Views: 4.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/game/frame" for 127.0.0.1 at 2017-12-21 16:39:09 +0530
+  Processing by GameController#frame as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Rl5cFLFVCK9xTP8xkg9aM0X7+c99hGdAd8aE5kbhLl0=", "frame_number"=>"3", "ball1"=>"1", "ball2"=>"3", "commit"=>"Next Frame"}
+Rendered game/_results.html.erb (0.1ms)
+Rendered game/_form.html.erb (1.9ms)
+Rendered game/frame.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 8ms (Views: 7.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/game/frame" for 127.0.0.1 at 2017-12-21 16:39:16 +0530
+  Processing by GameController#frame as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Rl5cFLFVCK9xTP8xkg9aM0X7+c99hGdAd8aE5kbhLl0=", "frame_number"=>"4", "ball1"=>"2", "ball2"=>"4", "commit"=>"Next Frame"}
+Rendered game/_results.html.erb (0.5ms)
+Rendered game/_form.html.erb (1.2ms)
+Rendered game/frame.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 7ms (Views: 6.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/game/frame" for 127.0.0.1 at 2017-12-21 16:39:28 +0530
+  Processing by GameController#frame as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Rl5cFLFVCK9xTP8xkg9aM0X7+c99hGdAd8aE5kbhLl0=", "frame_number"=>"5", "ball1"=>"4", "ball2"=>"3", "commit"=>"Next Frame"}
+Rendered game/_results.html.erb (0.1ms)
+Rendered game/_form.html.erb (0.8ms)
+Rendered game/frame.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 7ms (Views: 6.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/game/frame" for 127.0.0.1 at 2017-12-21 16:39:34 +0530
+  Processing by GameController#frame as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Rl5cFLFVCK9xTP8xkg9aM0X7+c99hGdAd8aE5kbhLl0=", "frame_number"=>"6", "ball1"=>"2", "ball2"=>"6", "commit"=>"Next Frame"}
+Rendered game/_results.html.erb (0.1ms)
+Rendered game/_form.html.erb (0.8ms)
+Rendered game/frame.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 7ms (Views: 6.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/game/frame" for 127.0.0.1 at 2017-12-21 16:39:42 +0530
+  Processing by GameController#frame as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Rl5cFLFVCK9xTP8xkg9aM0X7+c99hGdAd8aE5kbhLl0=", "frame_number"=>"7", "ball1"=>"3", "ball2"=>"9", "commit"=>"Next Frame"}
+Rendered game/_results.html.erb (0.1ms)
+Rendered game/_form.html.erb (1.5ms)
+Rendered game/frame.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 9ms (Views: 8.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/game/frame" for 127.0.0.1 at 2017-12-21 16:39:52 +0530
+  Processing by GameController#frame as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Rl5cFLFVCK9xTP8xkg9aM0X7+c99hGdAd8aE5kbhLl0=", "frame_number"=>"7", "ball1"=>"4", "ball2"=>"5", "commit"=>"Next Frame"}
+Rendered game/_results.html.erb (0.2ms)
+Rendered game/_form.html.erb (0.7ms)
+Rendered game/frame.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 5ms (Views: 4.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/game/frame" for 127.0.0.1 at 2017-12-21 16:39:59 +0530
+  Processing by GameController#frame as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Rl5cFLFVCK9xTP8xkg9aM0X7+c99hGdAd8aE5kbhLl0=", "frame_number"=>"8", "ball1"=>"4", "ball2"=>"2", "commit"=>"Next Frame"}
+Rendered game/_results.html.erb (0.1ms)
+Rendered game/_form.html.erb (0.7ms)
+Rendered game/frame.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 5ms (Views: 4.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/game/frame" for 127.0.0.1 at 2017-12-21 16:40:04 +0530
+  Processing by GameController#frame as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Rl5cFLFVCK9xTP8xkg9aM0X7+c99hGdAd8aE5kbhLl0=", "frame_number"=>"9", "ball1"=>"4", "ball2"=>"1", "commit"=>"Next Frame"}
+Rendered game/_results.html.erb (0.2ms)
+Rendered game/frame.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 4ms (Views: 3.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/game/new" for 127.0.0.1 at 2017-12-21 16:42:03 +0530
+  Processing by GameController#new as HTML
+Redirected to http://localhost:1234/game
+Completed 302 Found in 1ms
+
+
+Started GET "/game" for 127.0.0.1 at 2017-12-21 16:42:03 +0530
+  Processing by GameController#index as HTML
+Rendered game/_form.html.erb (0.6ms)
+Rendered game/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 4ms (Views: 3.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/game/frame" for 127.0.0.1 at 2017-12-21 16:42:11 +0530
+  Processing by GameController#frame as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Rl5cFLFVCK9xTP8xkg9aM0X7+c99hGdAd8aE5kbhLl0=", "ball1"=>"1", "ball2"=>"10", "commit"=>"Next Frame"}
+Rendered game/_results.html.erb (0.1ms)
+Rendered game/_form.html.erb (2.3ms)
+Rendered game/frame.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 9ms (Views: 8.3ms | ActiveRecord: 0.0ms)

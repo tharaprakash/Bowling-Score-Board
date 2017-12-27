@@ -1,0 +1,43 @@
+// Place all the styles related to the game controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+div#content {
+  margin-left: 400px;
+  .flash-message {
+   width: 300px;
+   padding: 30px;
+   margin: 20px;
+  }
+  #error {
+    border: 5px solid #ff0000;
+  }
+  #notice {
+    border: 5px solid #0000ff;
+  }
+  #results {
+    margin: 40px 0 40px 0px;
+    .header {
+      background-color: #cccccc;
+      width: 100px;
+    }
+    td {
+      width: 20px;
+      text-align: center;
+      padding: 10px;
+    }
+    .total {
+      font-weight: bold;
+      color: #ff0000;
+    }
+  }
+  #knocked_pins {
+    border: 1px solid #cccccc;
+    margin: 20px 0 20px -40px;
+    width: 200px;
+    .input-block {
+      margin: 10px;
+    }
+  }
+}
+

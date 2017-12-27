@@ -1,0 +1,13 @@
+<%= form_tag '/game/frame' do %>
+<!--
+It gives textfield to enter the trails
+-->
+Knocked pins:
+<div id="knocked_pins">
+  <%= hidden_field_tag :frame_number, @game.frame_number if @game%>
+  <%= input :ball1, '1st ball'%>
+  <%= input :ball2, '2nd ball'%>
+</div>
+
+  <%= submit_tag 'Next Frame'%>
+<% end %>
