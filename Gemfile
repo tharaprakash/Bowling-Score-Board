@@ -11,11 +11,11 @@ group :development do
   gem 'sqlite3'
   gem 'minitest'
   gem "rspec-rails", ">= 2.6"
-  #gem 'capybara'
+  gem 'capybara'
   gem 'uglifier'
   gem 'heroku'
 end
 
 group :production do
-#  gem 'pg'
+  gem 'pg'
 end
